@@ -8,7 +8,7 @@ const Wrapper = styled.footer`
 const Footer = () => {
   return (
     <Wrapper>
-      <p>© 2019</p>
+      <p data-testid="copyright">© 2019</p>
     </Wrapper>
   )
 }

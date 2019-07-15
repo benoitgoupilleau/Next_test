@@ -19,14 +19,14 @@ const ImageWrapper = styled.div`
 
 export default () => (
   <Layout>
-    <h1>About</h1>
-    <p>This boilerplate uses Nextjs, React v16.8 and Styled components</p>
+    <h1 data-testid="page-title">About</h1>
+    <p data-testid="text">This boilerplate uses Nextjs, React v16.8 and Styled components</p>
     <ImageWrapper>
       <div>
-        <img src="/static/jslogo.png" alt="js" height="150px" />
-        <img src="/static/react.png" alt="js" height="150px" />
-        <img src="/static/nextjs.png" alt="js" height="150px" />
-        <img src="/static/styled.png" alt="js" height="150px" />
+        <img data-testid="img" src="/static/jslogo.png" alt="js" height="150px" />
+        <img data-testid="img" src="/static/react.png" alt="js" height="150px" />
+        <img data-testid="img" src="/static/nextjs.png" alt="js" height="150px" />
+        <img data-testid="img" src="/static/styled.png" alt="js" height="150px" />
       </div>
     </ImageWrapper>
   </Layout>

@@ -36,13 +36,13 @@ const NavItem = styled.a`
 const Header = () => {
   return (
     <Wrapper>
-      <Title>Coding test with Nextjs</Title>
+      <Title data-testid="title">Coding test with Nextjs</Title>
       <nav>
         <NavList>
-          <li>
+          <li data-testid="navlink">
             <Link href="/"><NavItem>Home</NavItem></Link>
           </li>
-          <li>
+          <li data-testid="navlink">
             <Link href="/about"><NavItem>About</NavItem></Link>
           </li>
         </NavList>

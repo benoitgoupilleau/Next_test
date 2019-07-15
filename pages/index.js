@@ -2,8 +2,8 @@ import Layout from '../components/Layout';
 
 const Index = () => (
   <Layout>
-    <h1>Home page</h1>
-    <p>Welcome to your coding test 💻 Your tasks will be to:</p>
+    <h1 data-testid="page-title">Home page</h1>
+    <p data-testid="text">Welcome to your coding test 💻 Your tasks will be to:</p>
     <ul>
       <li>Create a new page that you will call "Blog"</li>
       <li>Fetch all the blog posts from the following API: https://servertest-bgoupilleau.herokuapp.com</li>
