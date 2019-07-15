@@ -5,25 +5,28 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "test": "jest"
+    "test": "jest",
+    "build": "next build"
   },
   "keywords": [],
   "author": "Benoit Goupilleau",
   "license": "ISC",
   "dependencies": {
-    "next": "^8.1.0",
+    "next": "^9.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
-    "babel-jest": "^24.8.0",
     "@testing-library/jest-dom": "^4.0.0",
     "@testing-library/react": "^8.0.5",
+    "@types/react": "^16.8.23",
+    "babel-jest": "^24.8.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.5",
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "typescript": "^3.5.3"
   }
 }

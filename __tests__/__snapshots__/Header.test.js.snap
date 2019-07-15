@@ -113,9 +113,11 @@ exports[`Enzyme tests should render Header according to snapshot 1`] = `
                 >
                   <Link
                     href="/"
+                    prefetch={true}
                   >
                     <styled.a
                       onClick={[Function]}
+                      onMouseEnter={[Function]}
                     >
                       <StyledComponent
                         forwardedComponent={
@@ -153,12 +155,14 @@ exports[`Enzyme tests should render Header according to snapshot 1`] = `
                             "withComponent": [Function],
                           }
                         }
-                        forwardedRef={null}
+                        forwardedRef={[Function]}
                         onClick={[Function]}
+                        onMouseEnter={[Function]}
                       >
                         <a
                           className="sc-bxivhb bTbHln"
                           onClick={[Function]}
+                          onMouseEnter={[Function]}
                         >
                           Home
                         </a>
@@ -171,9 +175,11 @@ exports[`Enzyme tests should render Header according to snapshot 1`] = `
                 >
                   <Link
                     href="/about"
+                    prefetch={true}
                   >
                     <styled.a
                       onClick={[Function]}
+                      onMouseEnter={[Function]}
                     >
                       <StyledComponent
                         forwardedComponent={
@@ -211,12 +217,14 @@ exports[`Enzyme tests should render Header according to snapshot 1`] = `
                             "withComponent": [Function],
                           }
                         }
-                        forwardedRef={null}
+                        forwardedRef={[Function]}
                         onClick={[Function]}
+                        onMouseEnter={[Function]}
                       >
                         <a
                           className="sc-bxivhb bTbHln"
                           onClick={[Function]}
+                          onMouseEnter={[Function]}
                         >
                           About
                         </a>

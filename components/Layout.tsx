@@ -20,7 +20,11 @@ const Content = styled.div`
   flex-grow: 1;
 `;
 
-const Layout = ({ children }) => {
+export interface Props {
+  children: React.ReactNode;
+}
+
+const Layout = ({ children }: Props) => {
     return (
         <Container>
             <GlobalStyle />
