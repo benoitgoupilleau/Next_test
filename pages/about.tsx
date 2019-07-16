@@ -17,7 +17,7 @@ const ImageWrapper = styled.div`
   }
 `;
 
-export default () => (
+const About: React.FC = () => (
   <Layout>
     <h1 data-testid="page-title">About</h1>
     <p data-testid="text">This boilerplate uses Nextjs, React v16.8 and Styled components</p>
@@ -31,3 +31,5 @@ export default () => (
     </ImageWrapper>
   </Layout>
 );
+
+export default About;

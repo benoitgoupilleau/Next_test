@@ -24,7 +24,7 @@ export interface Props {
   children: React.ReactNode;
 }
 
-const Layout = ({ children }: Props) => {
+const Layout: React.FC<Props> = ({ children }) => {
     return (
         <Container>
             <GlobalStyle />

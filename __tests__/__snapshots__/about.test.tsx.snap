@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Enzyme tests should render About according to snapshot 1`] = `
-<_default>
+<About>
   <Layout>
     <styled.div>
       <StyledComponent
@@ -440,5 +440,5 @@ exports[`Enzyme tests should render About according to snapshot 1`] = `
       </StyledComponent>
     </styled.div>
   </Layout>
-</_default>
+</About>
 `;

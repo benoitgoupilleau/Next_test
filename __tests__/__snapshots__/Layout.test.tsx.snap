@@ -310,6 +310,7 @@ exports[`Enzyme tests should render Layout according to snapshot 1`] = `
                   </StyledComponent>
                 </styled.header>
               </Header>
+              Hello
             </div>
           </StyledComponent>
         </styled.div>

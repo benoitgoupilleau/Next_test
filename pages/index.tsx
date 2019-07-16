@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
 
-const Index = () => (
+const Index: React.FC = () => (
   <Layout>
     <h1 data-testid="page-title">Home page</h1>
     <p data-testid="text">Welcome to your coding test 💻 Your tasks will be to:</p>

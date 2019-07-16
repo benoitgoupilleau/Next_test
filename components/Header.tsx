@@ -33,7 +33,7 @@ const NavItem = styled.a`
   }
 `;
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <Wrapper>
       <Title data-testid="title">Coding test with Nextjs</Title>

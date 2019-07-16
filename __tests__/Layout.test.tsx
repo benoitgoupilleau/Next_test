@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 
 describe('Enzyme tests', () => {
     test('should render Layout according to snapshot', () => {
-        const wrapper = mount(<Layout />);
+        const wrapper = mount(<Layout>Hello</Layout>);
         expect(toJson(wrapper)).toMatchSnapshot();
     })
 })
